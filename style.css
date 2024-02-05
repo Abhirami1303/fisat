@@ -152,7 +152,7 @@ body{
 #im{
     border-radius: 5px;
     background-size: cover;
-    background-image: url("/fisat/Images/me.jpg");
+    background-image: url("Images/me.jpg");
     width: 30%;
     height: 70%;
     background-position-y: 30%;
