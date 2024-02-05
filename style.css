@@ -6,7 +6,7 @@
 body{
     width:100%;
     height:100%;
-    background-image:url(a.jpg);
+    background-image:url(/images/a.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
@@ -68,6 +68,7 @@ body{
     border: 2px solid;
     border-color: blueviolet;
     border-radius: 4px;
+    padding-left: 40px;
 }
 #box3{
     
@@ -81,7 +82,7 @@ body{
     border: 2px solid;
     border-color: blueviolet;
     border-radius: 4px;
-
+    padding-left: 40px;
 }
 #box4{
   
@@ -151,8 +152,22 @@ body{
 #im{
     border-radius: 5px;
     background-size: cover;
-    background-image: url("20230829_105455.jpg");
+    background-image: url("/Images/me.jpg");
     width: 30%;
     height: 70%;
-    background-position: center;
+    background-position-y: 30%;
+    background-position-x: 40%;
+}
+footer{
+    background-color: rgb(141, 71, 164);
+    width: 100%;
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: center;
+    /* display: flex;
+    align-items: center; */
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
